@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Basketball Scoreboard Project</title>
+</head>
+<body>
+    <div id="container">
+        <section id="home">
+            <h2>HOME</h2>
+            <div id="home-score">0</div>
+            <div id="home-add">
+                <button id="home-add-1" type="button" onclick="homeAdd1()">+1</button>
+                <button id="home-add-2" type="button" onclick="homeAdd2()">+2</button>
+                <button id="home-add-3" type="button" onclick="homeAdd3()">+3</button>
+
+
+            </div>
+        </section>
+
+        <section id="guest">
+            <h2>GUEST</h2>
+            <div id="guest-score">0</div>
+            <div id="guest-add">
+                <button id="guest-add-1" type="button" onclick="guestAdd1()">+1</button>
+                <button id="guest-add-2" type="button" onclick="guestAdd2()">+2</button>
+                <button id="guest-add-3" type="button" onclick="guestAdd3()">+3</button>
+
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
